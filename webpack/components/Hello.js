@@ -4,7 +4,10 @@ import './Hello.scss';
 class Hello extends Component {
  render() {
  return (
- <div className="test">Hey, y’alal!!</div>
+    <div>
+        <h1>Title</h1>
+        <div className="test">Hey, y’alal!!</div>
+    </div>
  )
  }
 }
