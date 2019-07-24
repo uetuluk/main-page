@@ -3,7 +3,7 @@ import { injectIntl } from "gatsby-plugin-intl"
 import Navbar from "../components/Navbar"
 import SEO from "../components/SEO"
 
-import("./index.scss")
+import("../styles/index.scss")
 
 export default injectIntl(
     ({ intl }) => {
