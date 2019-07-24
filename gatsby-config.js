@@ -33,7 +33,7 @@ module.exports = {
         short_name: `Portfolio`,
         description: `This is the page for my portfolio.`,
         lang: `en`,
-        start_url: `/`,
+        start_url: `/en/`,
         background_color: `#F8C053`,
         theme_color: `#F8C053`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
@@ -60,5 +60,12 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-144501573-1",
+      },
+    },
   ]
 }
