@@ -13,11 +13,17 @@ module.exports = {
         // language JSON resource path
         path: `${__dirname}/src/intl`,
         // supported language
-        languages: [`en`, `tr`],
+        languages: [`en`, `tr`, `zh`],
         // language file path
         defaultLanguage: `en`,
         // option to redirect to `/en` when connecting `/`
         redirect: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
       },
     },
   ]

@@ -1,3 +1,31 @@
 {
-    "title": "Hello world!"
+    "name": "Utku Ege Tuluk",
+    "navbar": {
+        "resume": "Resumé",
+        "porfolio": "Portfolio",
+        "about": "About Me",
+        "button": "EN"
+    },
+    "index": {
+        "title": "Welcome to My Portfolio",
+        "subtitle": "Here you can view my past works and resumé."
+    },
+    "resume": {
+        "title": "Resumé",
+        "Open All": "Open All",
+        "Experience": "Experience",
+        "Education": "Education",
+        "Extracurricular Activities": "Extracurricular Activities",
+        "Certification": "Certification",
+        "Skills": "Skills",
+        "Interests": "Interests"
+    },
+    "portfolio": {
+        "title": "Portfolio"
+    },
+    "about": {
+        "title": "About Me",
+        "text": "My name is Utku Ege Tuluk. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt nibh nec odio vestibulum vestibulum. Donec eu tincidunt justo. Curabitur bibendum nibh ac elit scelerisque, ut tincidunt ipsum volutpat. Suspendisse potenti. Phasellus dolor velit, pretium id fermentum cursus, viverra id eros. Nulla facilisi. Suspendisse sagittis justo vitae nulla semper maximus. Sed sollicitudin erat vitae enim ullamcorper volutpat.",
+        "Social Links": "Social Links"
+    }
 }
