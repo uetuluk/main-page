@@ -1,4 +1,12 @@
 import React from "react"
+import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 import("./index.scss")
 
-export default () => <div className="index">Hello world!</div>
+export default injectIntl(
+    ({ intl }) => {
+        return (
+        <>
+            <div className="index">{intl.formatMessage({ id: "title" })}</div>
+        </>
+        )
+    })
