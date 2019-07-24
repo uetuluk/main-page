@@ -18,7 +18,7 @@ send_msg () {
 }
 
 send_msg "
-Build [#$TRAVIS_BUILD_NUMBER]($TRAVIS_BUILD_WEB_URL) ([${TRAVIS_COMMIT_NAME:0:7}](https://github.com/$TRAVIS_REPO_SLUG/$TRAVIS_COMMIT)) of $TRAVIS_REPO_SLUG@$TRAVIS_PULL_REQUEST_BRANCH ${build_status}. [CHECK IT OUT](https://uetuluk.github.io/test-frontend/)
+Build [#$TRAVIS_BUILD_NUMBER]($TRAVIS_BUILD_WEB_URL) ([${TRAVIS_COMMIT_NAME:0:7}](https://github.com/$TRAVIS_REPO_SLUG/$TRAVIS_COMMIT)) of $TRAVIS_REPO_SLUG@$TRAVIS_PULL_REQUEST_BRANCH ${build_status}. [CHECK IT OUT](https://uetuluk.github.io/main-page/)
 
 [Job Log here](${TRAVIS_JOB_WEB_URL})
 "
