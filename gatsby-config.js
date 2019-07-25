@@ -74,5 +74,6 @@ module.exports = {
         trackingId: "UA-144501573-1",
       },
     },
+    `gatsby-plugin-transition-link`,
   ]
 }
