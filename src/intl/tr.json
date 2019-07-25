@@ -1,32 +1,32 @@
 {
-    "name": "Utku Ege Tuluk",
-    "title": "Utku Ege Tuluk - Portfolyo",
-    "navbar": {
-        "resume": "Resumé",
-        "portfolio": "Portfolio",
-        "about": "About Me",
-        "button": "TR"
+    "about": {
+        "Social Links": "Social Links",
+        "text": "My name is Utku Ege Tuluk. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt nibh nec odio vestibulum vestibulum. Donec eu tincidunt justo. Curabitur bibendum nibh ac elit scelerisque, ut tincidunt ipsum volutpat. Suspendisse potenti. Phasellus dolor velit, pretium id fermentum cursus, viverra id eros. Nulla facilisi. Suspendisse sagittis justo vitae nulla semper maximus. Sed sollicitudin erat vitae enim ullamcorper volutpat.",
+        "title": "About Me"
     },
     "index": {
-        "title": "Welcome to My Portfolio",
-        "subtitle": "Here you can view my past works and resumé."
+        "subtitle": "Here you can view my past works and resumé.",
+        "title": "Welcome to My Portfolio"
     },
-    "resume": {
-        "title": "Resumé",
-        "Open All": "Open All",
-        "Experience": "Experience",
-        "Education": "Education",
-        "Extracurricular Activities": "Extracurricular Activities",
-        "Certification": "Certification",
-        "Skills": "Skills",
-        "Interests": "Interests"
+    "name": "Utku Ege Tuluk",
+    "navbar": {
+        "about": "About Me",
+        "button": "TR",
+        "portfolio": "Portfolio",
+        "resume": "Resumé"
     },
     "portfolio": {
         "title": "Portfolio"
     },
-    "about": {
-        "title": "About Me",
-        "text": "My name is Utku Ege Tuluk. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt nibh nec odio vestibulum vestibulum. Donec eu tincidunt justo. Curabitur bibendum nibh ac elit scelerisque, ut tincidunt ipsum volutpat. Suspendisse potenti. Phasellus dolor velit, pretium id fermentum cursus, viverra id eros. Nulla facilisi. Suspendisse sagittis justo vitae nulla semper maximus. Sed sollicitudin erat vitae enim ullamcorper volutpat.",
-        "Social Links": "Social Links"
-    }
+    "resume": {
+        "Certification": "Certification",
+        "Education": "Education",
+        "Experience": "Experience",
+        "Extracurricular Activities": "Extracurricular Activities",
+        "Interests": "Interests",
+        "Open All": "Open All",
+        "Skills": "Skills",
+        "title": "Resumé"
+    },
+    "title": "Utku Ege Tuluk - Portfolyo"
 }

@@ -1,32 +1,32 @@
 {
-    "name": "陆胜",
-    "title": "Utku Ege Tuluk - 投资组合",
-    "navbar": {
-        "resume": "简历",
-        "portfolio": "投资组合",
-        "about": "关于我",
-        "button": "中"
+    "about": {
+        "Social Links": "社交链接",
+        "text": "我的名字是陆胜. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt nibh nec odio vestibulum vestibulum. Donec eu tincidunt justo. Curabitur bibendum nibh ac elit scelerisque, ut tincidunt ipsum volutpat. Suspendisse potenti. Phasellus dolor velit, pretium id fermentum cursus, viverra id eros. Nulla facilisi. Suspendisse sagittis justo vitae nulla semper maximus. Sed sollicitudin erat vitae enim ullamcorper volutpat.",
+        "title": "关于我"
     },
     "index": {
-        "title": "欢迎来到我的作品集",
-        "subtitle": "在这里你可以看到我过去的作品和简历。"
+        "subtitle": "在这里你可以看到我过去的作品和简历。",
+        "title": "欢迎来到我的作品集"
     },
-    "resume": {
-        "title": "简历",
-        "Open All": "全部打开",
-        "Experience": "经验",
-        "Education": "教育",
-        "Extracurricular Activities": "课外活动",
-        "Certification": "认证",
-        "Skills": "技能",
-        "Interests": "兴趣"
+    "name": "陆胜",
+    "navbar": {
+        "about": "关于我",
+        "button": "中",
+        "portfolio": "投资组合",
+        "resume": "简历"
     },
     "portfolio": {
         "title": "投资组合"
     },
-    "about": {
-        "title": "关于我",
-        "text": "我的名字是陆胜. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt nibh nec odio vestibulum vestibulum. Donec eu tincidunt justo. Curabitur bibendum nibh ac elit scelerisque, ut tincidunt ipsum volutpat. Suspendisse potenti. Phasellus dolor velit, pretium id fermentum cursus, viverra id eros. Nulla facilisi. Suspendisse sagittis justo vitae nulla semper maximus. Sed sollicitudin erat vitae enim ullamcorper volutpat.",
-        "Social Links": "社交链接"
-    }
+    "resume": {
+        "Certification": "认证",
+        "Education": "教育",
+        "Experience": "经验",
+        "Extracurricular Activities": "课外活动",
+        "Interests": "兴趣",
+        "Open All": "全部打开",
+        "Skills": "技能",
+        "title": "简历"
+    },
+    "title": "Utku Ege Tuluk - 投资组合"
 }
