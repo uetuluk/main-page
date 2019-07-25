@@ -13,7 +13,7 @@ module.exports = {
         // language JSON resource path
         path: `${__dirname}/src/intl`,
         // supported language
-        languages: [`en`, `tr`, `zh`],
+        languages: [`en`, `tr`, `zh`, `ja`],
         // language file path
         defaultLanguage: `en`,
         // option to redirect to `/en` when connecting `/`
@@ -51,6 +51,13 @@ module.exports = {
           {
             start_url: `/zh/`,
             lang: `zh`,
+            name: "陆胜 - 投资组合",
+            short_name: `投资组合`,
+            description: `是一个包括我的投资组合的网站。`,
+          },
+          {
+            start_url: `/ja/`,
+            lang: `ja`,
             name: "陆胜 - 投资组合",
             short_name: `投资组合`,
             description: `是一个包括我的投资组合的网站。`,

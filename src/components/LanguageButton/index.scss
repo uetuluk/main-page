@@ -7,11 +7,66 @@
     color: #FFFF;
     background: #3275F7;
     border-radius: 25px;
-    text-align: center;
     cursor: pointer;
-
-    &:hover {
+    &:hover{
         color: #3275F7;
-        background: #FFFF;
+        background: #FFFFFF;
+    }
+    .dropDown{
+        width: 50px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        &-content{
+            display: none;
+            position: absolute;
+            z-index: 1;
+            >div {
+                margin: 12px 0;
+                background: #3275F7;
+                color: #FFFFFF;
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                text-align: center;
+                &:hover{
+                    color: #3275F7;
+                    background: #FFFFFF;
+                }
+            }
+        }
+
+    }
+    .dropDown:hover .dropDown-content{
+        display: block;
+        animation-name: slideIn;
+        animation-duration: 0.5s;
+    }
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes slideIn {
+        0% {
+            opacity: 0;
+            right: 50px;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            right: 0;
+        }
+    }
+    
+    /* Standard syntax */
+    @keyframes slideIn {
+        0% {
+            opacity: 0;
+            right: 50px;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            right: 0;
+        }
     }
 }
