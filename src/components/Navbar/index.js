@@ -13,13 +13,9 @@ const positionList = {
 
 const positionDecider = (linkTo) => {
     const currentPath = window.location.pathname.split("/")[2];
-    console.log(linkTo)
-    console.log(positionList[linkTo], positionList[currentPath])
     if (positionList[linkTo] > positionList[currentPath] ){
-        console.log("left")
         return "left"
     } else {
-        console.log("right")
         return "right"
     }
 }

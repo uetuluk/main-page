@@ -2,6 +2,7 @@ import React from "react"
 import { injectIntl } from "gatsby-plugin-intl"
 import Navbar from "../../components/Navbar"
 import SEO from "../../components/SEO"
+import("../../styles/index.scss")
 import("./index.scss")
 
 export default injectIntl(
@@ -10,7 +11,11 @@ export default injectIntl(
         <>
             <SEO locale={intl.locale} title={intl.formatMessage({ id: "title" })} />  
             <Navbar />
-            Resume
+            <div className="Background">
+                <div className="Container">
+                    <h1>{intl.formatMessage({ id: "resume.title" })}</h1>
+                </div>
+            </div>
         </>
         )
     })
