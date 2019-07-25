@@ -4,6 +4,16 @@
     }
 }
 
+@mixin noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+    pointer-events: none;
+}
+
 .Navbar {
     height: 70px;
     background: #F8C053;
@@ -13,10 +23,15 @@
         font-size: 40px;
         line-height: 70px;
         margin-left: 20px;
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
         @include mobile{
             font-size: 30px;
             margin-left: 12px;
         }
+
     } 
     &-menu {
         height: 70px;

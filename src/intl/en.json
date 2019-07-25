@@ -13,7 +13,8 @@
         "about": "About Me",
         "button": "EN",
         "portfolio": "Portfolio",
-        "resume": "Resumé"
+        "resume": "Resumé",
+        "blog": "Blog"
     },
     "portfolio": {
         "title": "Portfolio"

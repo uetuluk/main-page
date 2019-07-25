@@ -1,5 +1,51 @@
 @import "variables";
-.index{
-    color: red;
-}
 
+.Hero{
+    background: linear-gradient(180deg, #F8C053 9.56%, #F7B432 65.44%, #F8C053 112.48%);
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    position: relative;
+
+    h1, h2{
+        color: $secondary-var; 
+    }
+
+    &-Title{
+        font-family: "Paytone One";
+        font-size: 13vw;
+        max-width: 90vw;
+        color: $secondary-var;
+
+    }
+    &-SubTitle{
+        font-size: 200%;
+        transform: rotate(-5.29deg);
+        position: absolute;
+        bottom: 0;
+        right: -40px;
+    }
+    &-button{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: rotate(9.95deg);
+        background: #FFFFFF;
+        color: $secondary-var;
+        height: 60px;
+        width: 220px;
+        text-align: center;
+        display: inline-block;
+        &:hover {
+            color: #FFFFFF;
+            background: $secondary-var;
+        }
+        >span {
+            text-decoration: none;
+            color: unset;
+            text-transform: uppercase;
+            font-family: "Paytone One";
+            line-height: 60px;
+           
+        }
+    }
+}

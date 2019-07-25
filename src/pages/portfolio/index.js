@@ -1,12 +1,16 @@
 import React from "react"
 import { injectIntl } from "gatsby-plugin-intl"
+import Navbar from "../../components/Navbar"
+import SEO from "../../components/SEO"
 import("./index.scss")
 
 export default injectIntl(
     ({ intl }) => {
         return (
         <>
-            <div className="index">{intl.formatMessage({ id: "title" })}</div>
+            <SEO locale={intl.locale} title={intl.formatMessage({ id: "title" })} />  
+            <Navbar />
+            Portfolio
         </>
         )
     })
