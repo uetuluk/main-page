@@ -1,0 +1,31 @@
+portfolio: 
+  test:
+    - a
+    - b
+    - c
+
+resume:
+  "Certification": 
+    - asd
+    - daf
+    - ead  
+  "Education": 
+    - asd
+    - daf
+    - ead
+  "Experience": 
+    - asd
+    - daf
+    - ead
+  "Extracurricular Activities": 
+    - asd
+    - daf
+    - ead
+  "Interests": 
+    - asd
+    - daf
+    - ead
+  "Skills": 
+    - asd
+    - daf
+    - ead
