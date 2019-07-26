@@ -5,6 +5,9 @@ import SEO from "../../components/SEO"
 import("../../styles/index.scss")
 import("./index.scss")
 
+const fieldList = [
+    ""
+]
 export default injectIntl(
     ({ intl }) => {
         return (

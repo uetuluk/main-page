@@ -1,33 +1,33 @@
 {
     "about": {
-        "Social Links": "Social Links",
-        "text": "My name is Utku Ege Tuluk. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt nibh nec odio vestibulum vestibulum. Donec eu tincidunt justo. Curabitur bibendum nibh ac elit scelerisque, ut tincidunt ipsum volutpat. Suspendisse potenti. Phasellus dolor velit, pretium id fermentum cursus, viverra id eros. Nulla facilisi. Suspendisse sagittis justo vitae nulla semper maximus. Sed sollicitudin erat vitae enim ullamcorper volutpat.",
-        "title": "About Me"
+      "Social Links": "Social Links",
+      "text": "My name is Utku Ege Tuluk. I am a Junior at New York University Shanghai. I am interested in learning languages and web development.",
+      "title": "About Me"
     },
     "index": {
-        "subtitle": "Here you can view my past works and resumé.",
-        "title": "Welcome to My Portfolio"
+      "subtitle": "Here you can view my past works and resumé.",
+      "title": "Welcome to My Portfolio"
     },
     "name": "Utku Ege Tuluk",
     "navbar": {
-        "about": "About Me",
-        "button": "EN",
-        "portfolio": "Portfolio",
-        "resume": "Resumé",
-        "blog": "Blog"
+      "about": "About Me",
+      "button": "EN",
+      "portfolio": "Portfolio",
+      "resume": "Resumé",
+      "blog": "Blog"
     },
     "portfolio": {
-        "title": "Portfolio"
+      "title": "Portfolio"
     },
     "resume": {
-        "Certification": "Certification",
-        "Education": "Education",
-        "Experience": "Experience",
-        "Extracurricular Activities": "Extracurricular Activities",
-        "Interests": "Interests",
-        "Open All": "Open All",
-        "Skills": "Skills",
-        "title": "Resumé"
+      "Certification": "Certification",
+      "Education": "Education",
+      "Experience": "Experience",
+      "Extracurricular Activities": "Extracurricular Activities",
+      "Interests": "Interests",
+      "Open All": "Open All",
+      "Skills": "Skills",
+      "title": "Resumé"
     },
     "title": "Utku Ege Tuluk - Portfolio"
-}
+  }
