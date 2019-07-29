@@ -34,7 +34,7 @@ export default injectIntl(
                                     <StaticQuery
                                         query={
                                             graphql`
-                                                query MyQuery {
+                                                query ResumeQuery {
                                                     enYaml {
                                                         resume {
                                                             Certification

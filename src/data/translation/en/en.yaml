@@ -1,20 +1,36 @@
 portfolio: 
-  test:
-    - a
-    - b
-    - c
+  - title: "A"
+    picture: "test/delight.jpg"
+    link: "https://birthday.uetuluk.xyz"
+    description: "This is a website I have done for my girlfriend."
+  - title: "B"
+    picture: "test/test.png"
+    link: "https://birthday.uetuluk.xyz"
+    description: "This is a website I have done for my girlfriend."
+  - title: "C"
+    picture: "test/test.png"
+    link: "https://birthday.uetuluk.xyz"
+    description: "This is a website I have done for my girlfriend."
+  - title: "D"
+    picture: "test/test.png"
+    link: "https://birthday.uetuluk.xyz"
+    description: "This is a website I have done for my girlfriend."
+  - title: "E"
+    picture: "test/test.png"
+    link: "https://birthday.uetuluk.xyz"
+    description: "This is a website I have done for my girlfriend."
 
 resume:
   "Certification": 
-    - asd
-    - daf
+    - Lalasoals
+    - asxas
     - ead  
   "Education": 
     - asd
     - daf
     - ead
   "Experience": 
-    - asd
+    - A very good experience
     - daf
     - ead
   "Extracurricular Activities": 
