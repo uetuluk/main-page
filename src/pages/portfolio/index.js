@@ -10,7 +10,7 @@ import("./index.scss")
 const imageListToObject = (data) =>  {
     let list = {}
     let image = ""
-    console.log(data)
+    // console.log(data)
     data.map((ele) => {
         image = ele.node.childImageSharp.fluid
         list[image.originalName] = image
@@ -20,7 +20,10 @@ const imageListToObject = (data) =>  {
 } 
 
 const openPopup = (e) => {
-    console.log("Click: ", e.target);
+    e.stopPropagation();
+    e.currentTarget.classList.toggle('PopUp');
+    document.querySelector("#Overlay").classList.toggle('Enabled');
+    e.currentTarget.scrollIntoView(true);
 }
 
 export default injectIntl(
@@ -32,9 +35,9 @@ export default injectIntl(
             <div className="Background">
                 <div className="Container">
                     <h1>{intl.formatMessage({ id: "portfolio.title" })}</h1>
-                </div>
                 
-                <div className="ContentContainer">
+                
+                    <div className="ContentContainer">
                     <StaticQuery
                         query={
                             graphql`
@@ -63,9 +66,9 @@ export default injectIntl(
                         }
                         render={data => (
                             data.enYaml.portfolio.map((project)=> {
-                                console.log(project)
+                                // console.log(project)
                                 const imageObject = imageListToObject(data.allFile.edges)
-                                console.log(imageObject[project.picture.split("/").pop()])
+                                // console.log(imageObject[project.picture.split("/").pop()])
                                 return (
                                 <div key={project.title} className="Content" onClick={openPopup}>
                                     <h2 className="Project-Title">{project.title}</h2>
@@ -77,7 +80,7 @@ export default injectIntl(
                                             <p>{project.description}</p>
                                         </div>
                                         <div className="Description-Link">
-                                            <a href={project.link}>Check it Out</a>
+                                            <p><a href={project.link}><span>Check it Out</span></a></p>
                                         </div>
 
                                     </div>
@@ -89,7 +92,9 @@ export default injectIntl(
                         }
                         
                     />
+                    </div>
                 </div>
+                <div id="Overlay"></div>
             </div>
         </>
         )

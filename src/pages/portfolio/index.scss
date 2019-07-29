@@ -1,3 +1,76 @@
-.index{
-    color: red;
+.Container{
+    >h1{
+        margin-bottom: 100px;
+    }
+    .ContentContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .Content {
+            width: 40%;
+            margin: auto;
+            margin-bottom: 100px;
+            background: #F7B432;
+            padding: 40px;
+            .Project-Title {
+                color: #000000;
+            }
+            .Project-Description{
+                display: none;
+            }
+            &.PopUp{
+                z-index: 1;
+                width: 80vw;
+                position: absolute;
+                top: 10vw;
+                
+                .Project-image{
+                    overflow: hidden;
+                    max-height: 300px;
+                }
+                .Project-Description{
+                    display: block;
+                    margin-top: 65px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    .Description-Long{
+                        flex: 3;
+                        p{
+                            width: 75%;
+                            text-align: justify;
+                        }
+                    }
+                    .Description-Link{
+                        flex: 1;
+                        p{
+                            width: 75%;
+                            a { 
+                                text-decoration: none;
+                                color: #3275F7;
+                                font-family: "Paytone One";
+                                font-size: 40px;
+                            
+                                span::before{
+                                    display: block;
+                                    content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9Imljb24vY29udGVudC9saW5rXzI0cHgiPgo8cGF0aCBpZD0iaWNvbi9jb250ZW50L2xpbmtfMjRweF8yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4LjMzMzUgMjVIMTEuNjY2OEM4LjkxNjgzIDI1IDYuNjY2ODMgMjIuNzUgNi42NjY4MyAyMEM2LjY2NjgzIDE3LjI1IDguOTE2ODMgMTUgMTEuNjY2OCAxNUgxOC4zMzM1VjExLjY2NjdIMTEuNjY2OEM3LjA2NjgzIDExLjY2NjcgMy4zMzM1IDE1LjQgMy4zMzM1IDIwQzMuMzMzNSAyNC42IDcuMDY2ODMgMjguMzMzNCAxMS42NjY4IDI4LjMzMzRIMTguMzMzNVYyNVpNMjguMzMzNSAxMS42NjY3SDIxLjY2NjhWMTVIMjguMzMzNUMzMS4wODM1IDE1IDMzLjMzMzUgMTcuMjUgMzMuMzMzNSAyMEMzMy4zMzM1IDIyLjc1IDMxLjA4MzUgMjUgMjguMzMzNSAyNUgyMS42NjY4VjI4LjMzMzRIMjguMzMzNUMzMi45MzM1IDI4LjMzMzQgMzYuNjY2OCAyNC42IDM2LjY2NjggMjBDMzYuNjY2OCAxNS40IDMyLjkzMzUgMTEuNjY2NyAyOC4zMzM1IDExLjY2NjdaTTI2LjY2NjggMTguMzMzNEgxMy4zMzM1VjIxLjY2NjdIMjYuNjY2OFYxOC4zMzM0WiIgZmlsbD0iIzMyNzVGNyIvPgo8L2c+Cjwvc3ZnPgo=");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Overlay.Enabled{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+    }
 }
