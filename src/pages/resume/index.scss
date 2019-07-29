@@ -1,3 +1,56 @@
-.index{
-    color: red;
+.Resume{
+    font-family: 'Paytone One';
+    .Container{
+        >h1{
+            .Download{
+                &:before{
+                    content: "";
+                    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9Imljb24vZmlsZS9kb3dubG9hZF8yNHB4Ij4KPHBhdGggaWQ9Imljb24vZmlsZS9kb3dubG9hZF8yNHB4XzIiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTkgOS41SDE1VjMuNUg5VjkuNUg1TDEyIDE2LjVMMTkgOS41Wk0xMSAxMS41VjUuNUgxM1YxMS41SDE0LjE3TDEyIDEzLjY3TDkuODMwMDIgMTEuNUgxMVpNMTkgMjAuNVYxOC41SDVWMjAuNUgxOVoiIGZpbGw9ImJsYWNrIiBmaWxsLW9wYWNpdHk9IjAuNTQiLz4KPC9nPgo8L3N2Zz4K);
+                    height: 60px;
+                    width: 60px;
+                    display: inline-block;
+                    background-size: 100%;
+                    position: relative;
+                    top: 8px;
+                    left: 10px;                
+                }
+            }
+        }
+        >div {
+            margin-bottom: 26px;
+        }
+        .SectionContainer{
+            .ContentContainer{
+                >h2 {
+                    margin-bottom: 37px;
+                }
+                .image {
+                    height: 48px;
+                    margin-left: 10px;
+                    position: relative;
+                    top: 7px;
+                    img {
+                        display: inline-block;
+                        width: 48px;
+                        height: 48px;
+                        color: blue;
+                        margin-bottom: 0;
+                    }
+                }
+                .Content{
+                    display: none;
+                    background: #F7B432;
+                    padding: 6px 11px;
+                    margin-bottom: 13px;
+                    border-radius: 5px;
+                      
+                }
+                &.Open{
+                    .Content{
+                        display: block
+                    };
+                } 
+            }
+        }
+    }
 }

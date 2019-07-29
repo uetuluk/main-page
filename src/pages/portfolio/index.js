@@ -32,69 +32,71 @@ export default injectIntl(
         <>
             <SEO locale={intl.locale} title={intl.formatMessage({ id: "title" })} />  
             <Navbar />
-            <div className="Background">
-                <div className="Container">
-                    <h1>{intl.formatMessage({ id: "portfolio.title" })}</h1>
-                
-                
-                    <div className="ContentContainer">
-                    <StaticQuery
-                        query={
-                            graphql`
-                            query PortfolioQuery { enYaml { portfolio {
-                                title
-                                description
-                                link
-                                picture
-                                } }
-                                allFile(filter: {relativeDirectory: {eq: "test"}}) {
-                                    edges {
-                                      node {
-                                        childImageSharp {
-                                          id
-                                          fluid(maxWidth: 1000) {
-                                            originalName
-                                            ...GatsbyImageSharpFluid
-                                          }
+            <div className="Portfolio">
+                <div className="Background">
+                    <div className="Container">
+                        <h1>{intl.formatMessage({ id: "portfolio.title" })}</h1>
+                    
+                    
+                        <div className="ContentContainer">
+                        <StaticQuery
+                            query={
+                                graphql`
+                                query PortfolioQuery { enYaml { portfolio {
+                                    title
+                                    description
+                                    link
+                                    picture
+                                    } }
+                                    allFile(filter: {relativeDirectory: {eq: "test"}}) {
+                                        edges {
+                                        node {
+                                            childImageSharp {
+                                            id
+                                            fluid(maxWidth: 1000) {
+                                                originalName
+                                                ...GatsbyImageSharpFluid
+                                            }
+                                            }
                                         }
-                                      }
+                                        }
                                     }
-                                  }
-                            } 
-                              
-                            `
-                        }
-                        render={data => (
-                            data.enYaml.portfolio.map((project)=> {
-                                // console.log(project)
-                                const imageObject = imageListToObject(data.allFile.edges)
-                                // console.log(imageObject[project.picture.split("/").pop()])
-                                return (
-                                <div key={project.title} className="Content" onClick={openPopup}>
-                                    <h2 className="Project-Title">{project.title}</h2>
-                                    <div className="Project-image">
-                                        <Img fluid={imageObject[project.picture.split("/").pop()]} alt={project.title} />
-                                    </div>
-                                    <div className="Project-Description">
-                                        <div className="Description-Long">
-                                            <p>{project.description}</p>
+                                } 
+                                
+                                `
+                            }
+                            render={data => (
+                                data.enYaml.portfolio.map((project)=> {
+                                    // console.log(project)
+                                    const imageObject = imageListToObject(data.allFile.edges)
+                                    // console.log(imageObject[project.picture.split("/").pop()])
+                                    return (
+                                    <div key={project.title} className="Content" onClick={openPopup}>
+                                        <h2 className="Project-Title">{project.title}</h2>
+                                        <div className="Project-image">
+                                            <Img fluid={imageObject[project.picture.split("/").pop()]} alt={project.title} />
                                         </div>
-                                        <div className="Description-Link">
-                                            <p><a href={project.link}><span>Check it Out</span></a></p>
+                                        <div className="Project-Description">
+                                            <div className="Description-Long">
+                                                <p>{project.description}</p>
+                                            </div>
+                                            <div className="Description-Link">
+                                                <p><a href={project.link}><span>Check it Out</span></a></p>
+                                            </div>
+
                                         </div>
 
                                     </div>
-
-                                </div>
-                                )
-                            })
-                        )
-                        }
-                        
-                    />
+                                    )
+                                })
+                            )
+                            }
+                            
+                        />
+                        </div>
                     </div>
+                    <div id="Overlay"></div>
                 </div>
-                <div id="Overlay"></div>
             </div>
         </>
         )
