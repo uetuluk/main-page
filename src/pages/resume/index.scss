@@ -1,4 +1,8 @@
 .Resume{
+    .collapse-css-transition {
+        transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
     font-family: 'Paytone One';
     .Container{
         >h1{
@@ -19,10 +23,18 @@
         >div {
             margin-bottom: 26px;
         }
+        .openAll{
+            cursor: pointer;
+        }
+        .closeAll {
+            cursor: pointer;
+            margin-left: 20px;
+        }
         .SectionContainer{
             .ContentContainer{
                 >h2 {
                     margin-bottom: 37px;
+                    cursor: pointer;
                 }
                 .image {
                     height: 48px;
@@ -38,18 +50,12 @@
                     }
                 }
                 .Content{
-                    display: none;
                     background: #F7B432;
                     padding: 6px 11px;
                     margin-bottom: 13px;
                     border-radius: 5px;
                       
                 }
-                &.Open{
-                    .Content{
-                        display: block
-                    };
-                } 
             }
         }
     }
