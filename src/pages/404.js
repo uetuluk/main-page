@@ -2,7 +2,6 @@ import React from "react"
 import { injectIntl } from "gatsby-plugin-intl"
 import Navbar from "../components/Navbar"
 import SEO from "../components/SEO"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import("../styles/index.scss")
 
