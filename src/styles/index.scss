@@ -5,6 +5,7 @@
     height: calc(100vh - 70px);
     overflow: hidden;
     position: relative;
+    padding: 100px;
 
     h1, h2{
         color: $secondary-var; 
@@ -12,23 +13,25 @@
 
     &-Title{
         font-family: "Paytone One";
-        font-size: 13vw;
+        // font-size: 13vw;
+        font-size: 300%;
         max-width: 90vw;
         color: $secondary-var;
-
+        margin-bottom: 38px;
     }
     &-SubTitle{
         font-size: 200%;
-        transform: rotate(-5.29deg);
-        position: absolute;
-        bottom: 0;
-        right: -40px;
+        // transform: rotate(-5.29deg);
+        // position: absolute;
+        // bottom: 0;
+        // right: -40px;
+        margin-bottom: 75px;
     }
     &-button{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        transform: rotate(9.95deg);
+        // position: absolute;
+        // bottom: 0;
+        // left: 0;
+        // transform: rotate(9.95deg);
         background: #FFFFFF;
         color: $secondary-var;
         height: 60px;
