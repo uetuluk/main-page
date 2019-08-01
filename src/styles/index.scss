@@ -3,9 +3,11 @@
 .Hero{
     background: linear-gradient(180deg, #F8C053 9.56%, #F7B432 65.44%, #F8C053 112.48%);
     height: calc(100vh - 70px);
+    width: 100%;
     overflow: hidden;
     position: relative;
     padding: 100px;
+    min-width: 280px;
 
     h1, h2{
         color: $secondary-var; 
@@ -50,6 +52,10 @@
             line-height: 60px;
            
         }
+    }
+    @include mobile {
+        padding: 5px;
+        font-size: 4vw;
     }
 }
 

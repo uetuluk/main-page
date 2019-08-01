@@ -10,9 +10,9 @@ import("./index.scss")
 const fieldList = [
     "Experience",
     "Education",
-    "Extracurricular Activities",
     "Certification",  
     "Skills",
+    "Extracurricular Activities",
     "Interests",
 ];
 

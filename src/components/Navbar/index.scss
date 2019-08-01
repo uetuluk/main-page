@@ -1,5 +1,5 @@
 @mixin mobile {
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 1074px){
         @content
     }
 }
@@ -15,6 +15,7 @@
 }
 
 .Navbar {
+    min-width: 280px;
     height: 70px;
     background: #F8C053;
     font-family: 'Paytone One';

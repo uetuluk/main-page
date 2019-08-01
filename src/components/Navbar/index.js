@@ -28,6 +28,7 @@ export default injectIntl(
             {({location}) => 
                 <div className="Navbar">
                     <div className="siteTitle"><AniLink cover bg="#F8C053" direction={positionDecider("resume", location )} to={"/" + intl.locale + "/"}>{intl.formatMessage({ id: "name" })}</AniLink></div>
+                    {/* <div className="mobileButton">X</div> */}
                     <div className="Navbar-menu">
                         <span><AniLink cover bg="#F8C053" direction={positionDecider("resume", location )} to={"/" + intl.locale + "/resume/"}>{intl.formatMessage({ id: "navbar.resume" })}</AniLink></span>
                         <span><AniLink cover bg="#F8C053" direction={positionDecider("portfolio", location )} to={"/" + intl.locale + "/portfolio/"}>{intl.formatMessage({ id: "navbar.portfolio" })}</AniLink></span>
