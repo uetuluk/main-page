@@ -1,32 +1,32 @@
 {
     "about": {
-        "Social Links": "Social Links",
-        "text": "My name is Utku Ege Tuluk. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt nibh nec odio vestibulum vestibulum. Donec eu tincidunt justo. Curabitur bibendum nibh ac elit scelerisque, ut tincidunt ipsum volutpat. Suspendisse potenti. Phasellus dolor velit, pretium id fermentum cursus, viverra id eros. Nulla facilisi. Suspendisse sagittis justo vitae nulla semper maximus. Sed sollicitudin erat vitae enim ullamcorper volutpat.",
-        "title": "About Me"
+        "Social Links": "ソーシャルリンク",
+        "text": "私はニューヨーク大学上海のジュニアです。言語の学習とWeb開発に興味があります。",
+        "title": "自己紹介"
     },
     "index": {
-        "subtitle": "Here you can view my past works and resumé.",
-        "title": "Welcome to My Portfolio"
+        "subtitle": "ここで私の過去の作品と履歴書を見ることができます。",
+        "title": "私のポートフォリオへようこそ"
     },
     "name": "Utku Ege Tuluk",
     "navbar": {
-        "about": "About Me",
+        "about": "自己紹介",
         "button": "日",
-        "portfolio": "Portfolioa",
-        "resume": "Resumé"
+        "portfolio": "ポートフォリオ",
+        "resume": "履歴書"
     },
     "portfolio": {
-        "title": "Portfolio"
+        "title": "ポートフォリオ"
     },
     "resume": {
-        "Certification": "Certification",
-        "Education": "Education",
-        "Experience": "Experience",
-        "Extracurricular Activities": "Extracurricular Activities",
-        "Interests": "Interests",
-        "Open All": "Open All",
-        "Skills": "Skills",
-        "title": "Resumé"
+        "Certification": "認証",
+        "Education": "教育",
+        "Experience": "経験",
+        "Extracurricular Activities": "課外活動",
+        "Interests": "興味",
+        "Open All": "すべて開く",
+        "Skills": "スキル",
+        "title": "履歴書"
     },
-    "title": "Utku Ege Tuluk - Portfolio"
+    "title": "Utku Ege Tuluk - ポートフォリオ"
 }
