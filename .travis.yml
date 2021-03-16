@@ -27,9 +27,9 @@ after_success:
 after_script:
   - bash ./telegram_notification.sh
 
-notifications:
+
   slack:
-    rooms:
-      - wiredcraft:xC3ZVpNi5EZGX2XLxd4a2HFv
-    template:
-      - "Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository_slug}@%{branch} by %{author} %{result} in %{duration}. <https://portfolio.uetuluk.xyz|CHECK IT OUT>"
+
+
+   
+
