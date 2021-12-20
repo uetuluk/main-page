@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "preDeploy": "gatsby build --prefix-paths",
-    "deploy": "npm run preDeploy && gh-pages -d public",
+    "deploy": "npm run preDeploy",
     "i18n": "sync-i18n --files '**/intl/*.json' --primary en --languages tr zh jp --space 4",
     "check-i18n": "npm run i18n -- --check"
   },
