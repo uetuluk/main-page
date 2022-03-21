@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/main-page",
+  pathPrefix: "",
   plugins: [`gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-intl`,
